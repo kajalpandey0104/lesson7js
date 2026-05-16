@@ -1,0 +1,15 @@
+name: jdAction
+description: calculator to test JavaScript actions
+inputs:
+  number1:
+    required: true
+    default: 0
+  number2:
+    required: true
+    default: 0
+  outputs:
+    result:
+      description: 'output of the sun of the 2 numbers'
+  runs:
+    using: 'node20'
+    main: 'dist/index.js'
